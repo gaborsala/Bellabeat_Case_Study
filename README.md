@@ -2340,8 +2340,8 @@ ggplot(data=sleep_day)+
   facet_wrap(~Id)
 ```
 
-![](Bella_Beat_mark_files/figure-gfm/unnamed-chunk-6-1.png)<!-- --> How
-Long Does It Usually Take to Fall Asleep?
+ ![unnamed-chunk-6-1](https://user-images.githubusercontent.com/122177981/211172827-e1d49820-c412-4e55-8cef-29f98870ef16.png)
+How Long Does It Usually Take to Fall Asleep?
 
 Normal adult sleep is 10–20 minutes and 7–8 hours. Infants, toddlers,
 and preschoolers need more than 10 hours of sleep.
@@ -2358,13 +2358,15 @@ One study indicated that sleep quality decreases if it takes more than
 ggplot(data=daily_activity)+ geom_point(mapping=aes(x=Weekday,y=TotalSteps)) 
 ```
 
-![](Bella_Beat_mark_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![unnamed-chunk-7-1](https://user-images.githubusercontent.com/122177981/211172806-98da6816-b4d8-43e4-b7e3-76a5f8a566ce.png)
+
 
 ``` r
 ggplot(data=daily_activity)+ geom_point(mapping=aes(x=Weekday,y=TotalDistance))
 ```
 
-![](Bella_Beat_mark_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![unnamed-chunk-7-2](https://user-images.githubusercontent.com/122177981/211172813-c8a574b1-5ce2-494f-bfc0-83ed8c50b131.png)
+
 
 There’s nothing interesting.Daily results are identical.
 
@@ -2399,8 +2401,8 @@ hour_step$Date <- as.Date(hour_step$ActivityHour)
 ggplot(hour_step,aes(Weekday,StepTotal,group_by(Weekday))) + geom_line()+ facet_wrap(~Hours)
 ```
 
-![](Bella_Beat_mark_files/figure-gfm/unnamed-chunk-8-3.png)<!-- --> The
-American Heart Association and World Health Organization recommend 150
+ ![unnamed-chunk-8-3](https://user-images.githubusercontent.com/122177981/211172773-b8a3f773-30a7-4b9a-a0bc-8c721d2012f9.png)
+The American Heart Association and World Health Organization recommend 150
 minutes of moderate-intensity activity, 75 minutes of intense activity,
 or a combination of both per week. It needs 21.4 FairlyActiveMinutes or
 10.7 VeryActiveMinutes every day.
